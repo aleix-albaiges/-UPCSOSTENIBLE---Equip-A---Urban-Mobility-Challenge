@@ -14,13 +14,13 @@ class Student:
 def category_transport(type_transp: str) -> str:
         active = {'On foot','Bicycle'}
         public_transport = {'Renfe','FGC', 'Underground', 'Tram'}
-        private_polute = {'Taxi', 'Combustion or electric motorcycle with non-renewable source charging', 'Combustion vehicle (non-plug-in hybrid, electric or plug-in hybrid with non-renewable', 'Scooter (or other micro-mobility devices) with non-renewable charging'}
-        private_no_polute = {'Electric motorcycle', 'Scooter (or other micro-mobility devices) with renewable charging', 'Combustion vehicle (non-plug-in hybrid, electric or plug-in hybrid with non-renewable source charging),', 'Electric vehicle (with Zero label and renewable source charging)'} 
+        private_pollution = {'Taxi', 'Combustion or electric motorcycle with non-renewable source charging', 'Combustion vehicle (non-plug-in hybrid, electric or plug-in hybrid with non-renewable', 'Scooter (or other micro-mobility devices) with non-renewable charging'}
+        private_no_pollution = {'Electric motorcycle', 'Scooter (or other micro-mobility devices) with renewable charging', 'Combustion vehicle (non-plug-in hybrid, electric or plug-in hybrid with non-renewable source charging),', 'Electric vehicle (with Zero label and renewable source charging)'} 
 
         if type_transp in active: return 'active'
         if type_transp in public_transport: return 'public_transport'
-        if type_transp in private_polute: return 'private_polute'
-        if type_transp in private_no_polute: return 'private_no_polute' 
+        if type_transp in private_pollution: return 'private_pollution'
+        if type_transp in private_no_pollution: return 'private_no_pollution' 
         else: return ''  # mypy don't get mad
 
 def fill(df, students: dict[int, Student]) -> None:
@@ -45,7 +45,7 @@ def fill(df, students: dict[int, Student]) -> None:
             moder_2 = row['Indicate the modes of transport you use to return from the UPC. (only mark the stages that last more than 5 minutes, up to a maximum of 3 stages) [Stage 2]']
             moder_3 = row['Indicate the modes of transport you use to return from the UPC. (only mark the stages that last more than 5 minutes, up to a maximum of 3 stages) [Stage 3]']
 
-        categories: set[str] = {'active', 'public_transport', 'private_polute', 'private_no_polute'}
+        categories: set[str] = {'active', 'public_transport', 'private_pollution', 'private_no_pollution'}
 
         # Initialize student_mobility with all modes set to False
         student_mobility = {'coming': {mode: False for mode in all_modes}, 'return': {mode: False for mode in all_modes}}
