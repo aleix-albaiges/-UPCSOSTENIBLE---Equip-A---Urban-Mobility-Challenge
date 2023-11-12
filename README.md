@@ -15,7 +15,7 @@ To do this we created a [dataset code](new_dataset.py) that extracts data of de 
 The following pie chart resume which transport use studients to go to the University. We can see that the most used transport to go to the University is the combination of públic transport and active mobility (on foot or bike). Also we can see that many people do the whole trip using only public transport or active mobility.  
 <img src="howpeoplego.png">
 
-And the following pie chart resume which transport use studients to go and return to the university. Also we attached a bar plot to vizualize the number of people in each group. This was done is [global pie chart, barplot](grafic_barres_queso.py) The majority go and return to the University only using active mobility which inclue go on foot or by bike. The combination of públic transport, activity mobility and private vehicle that pollute is the less used by studients.  
+And the following pie chart resume which transport use studients to go and return to the university. Also we attached a bar plot to vizualize the number of people in each group. This was done is [global pie chartbarplot](grafic_barres_queso.py) The majority go and return to the University only using active mobility which inclue go on foot or by bike. The combination of públic transport, activity mobility and private vehicle that pollute is the less used by studients.  
 <img src="Globalpie.png">
 <img src="golbal_barplot.png">
 
