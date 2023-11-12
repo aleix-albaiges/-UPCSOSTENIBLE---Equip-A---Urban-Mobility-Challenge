@@ -12,7 +12,7 @@ To do this we created a [dataset code](new_dataset.py) that extracts data of de 
 ##  2. Create a data visualization solution that summarizes the people flow generated daily by UPC students, by transportation category. A user of your solution should be able to answer some of the following questions:
 
 ### How do people exactly move from their home to their school?
-The following pie chart resume which transport use studients to go to the University. 
+The following pie chart resume which transport use studients to go to the University. We can see that the most used transport to go to the University is the combination of públic transport and active mobility (on foot or bike). Also we can see that many people do the whole trip using only public transport or active mobility.  
 <img src="howpeoplego.png">
 
 And the following pie chart resume which transport use studients to go and return to the university. Also we attached a bar plot to vizualize the number of people in each group. This was done is grafic_barres_queso.py
