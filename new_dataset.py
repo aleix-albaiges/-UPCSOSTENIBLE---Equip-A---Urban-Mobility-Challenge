@@ -1,6 +1,5 @@
 import pandas as pd
 from dataframe import *
-# Assuming students is your dictionary containing student information
 data = []
 
 # Map faculty names to numbers
