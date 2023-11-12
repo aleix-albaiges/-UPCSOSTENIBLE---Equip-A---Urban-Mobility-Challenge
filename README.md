@@ -55,7 +55,7 @@ The next python code show how we extract de data:
 
 And these are the results:
 
-[Results Travel time](postcode_stops.txt)
+[Stops_by_postcode](postcode_stops.txt)
 
 
 ### How long does it take them?
