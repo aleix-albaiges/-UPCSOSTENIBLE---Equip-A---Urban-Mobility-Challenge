@@ -73,8 +73,7 @@ And these are the results:
 [Results Travel time](travel_times.txt)
 
 
-### Which zones are better served in terms of public transportation?
-We have used public data about the stations of the different catalan public transports: FGC, Rodalies Renfe and bus and Barcelona underground (TMB). With this, we have obtained the number of pulbic transport stations in each municipality, referenced and mapped in a dictonary by their zip codes.
+
 
 
 
