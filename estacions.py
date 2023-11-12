@@ -1,3 +1,8 @@
+'''
+This module reads the station data from the different catalan public transport services: 
+Rodalies Renfe, bus and Barcelona underground (TMB) and FGC. It saves them in a CSV file
+that contains a dictionary with post codes as keys and lists of their stations as values.
+'''
 import pandas as pd
 from dataclasses import dataclass
 from geopy.geocoders import Nominatim
@@ -11,6 +16,9 @@ class Station:
 
 
 def get_zipcode(lat: float, long: float) -> int|None:
+        '''Given a two floats that indicate coordinates, returns, if possible,
+        the zip code where they are located. Otherwise, returns None.'''
+
         geolocator = Nominatim(user_agent="datathon2023FME")
         location = geolocator.reverse((lat, long), language="es")
         try:
@@ -31,6 +39,8 @@ def get_zipcode(lat: float, long: float) -> int|None:
 
 
 def read_renfe(stations_dict: dict[int, list[Station]]):
+        '''Updates de stations dict with the Rodalies Renfe stations'''
+
         cols = ['DESCRIPCION', 'LATITUD', 'LONGITUD', 'C.P.']
         df = pd.read_excel("listado-estaciones-rodalies-barcelona.xlsx", usecols=cols)
         for i, row in df.iterrows():
@@ -43,6 +53,8 @@ def read_renfe(stations_dict: dict[int, list[Station]]):
         
 
 def read_fgc(stations_dict: dict[int, list[Station]]):
+        '''Updates de stations dict with the FGC stations'''
+
         cols = ["stop_lat", "stop_lon", "stop_name"]
         df = pd.read_csv("stops_fgc.txt", usecols=cols)
         for i, row in df.iterrows():
@@ -56,6 +68,8 @@ def read_fgc(stations_dict: dict[int, list[Station]]):
                         df.to_csv('postcode_stops.txt', index=False)
 
 def read_tmb(stations_dict: dict[int, list[Station]]):
+        '''Updates the stations dict with the metropolitan Barcelona transport (underground and bus)'''
+
         cols = ["stop_lat", "stop_lon", "stop_name"]
         df = pd.read_csv("stops_tmb.txt", usecols=cols)
         for i, row in df.iterrows():
@@ -71,7 +85,9 @@ def read_tmb(stations_dict: dict[int, list[Station]]):
 
 
 def reader():
+        '''Creates an stations dict with the postcodes as keys and its stations as values, and saves it in a .csv file  '''
         stations_dict: dict[int, list[Station]] = dict()
         read_renfe(stations_dict)
         read_tmb(stations_dict)
         read_fgc(stations_dict)
+
