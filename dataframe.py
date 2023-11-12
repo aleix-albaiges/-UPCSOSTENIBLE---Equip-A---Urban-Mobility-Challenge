@@ -100,5 +100,3 @@ def fill(df, students: dict[int, Student]) -> dict[int, Student]:
 
 
 students = fill(pd.read_excel('Datathon_Results_MOBILITY_2022_original_Students.xlsx'),dict())
-for student in students.values():
-    print(student)
