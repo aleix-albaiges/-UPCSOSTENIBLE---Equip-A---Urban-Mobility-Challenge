@@ -11,7 +11,7 @@ To do this we created a [dataset code](new_dataset.py) that extracts data of de 
 
 ##  2. Create a data visualization solution that summarizes the people flow generated daily by UPC students, by transportation category. A user of your solution should be able to answer some of the following questions:
 
-# How do people exactly move from their home to their school?
+### How do people exactly move from their home to their school?
 The following pie chart resume which transport use studients to go to the University. 
 <img src="howpeoplego.png">
 
@@ -19,7 +19,7 @@ And the following pie chart resume which transport use studients to go and retur
 <img src="Globalpie.png">
 <img src="golbal_barplot.png">
 
-# Which zones are better served in terms of public transportation?
+### Which zones are better served in terms of public transportation?
 
 We aimed to analyze the effectiveness of public transportation coverage across different
 zones. To achieve this, we developed a code to calculate the proportion of individuals
@@ -38,7 +38,7 @@ one of the postal codes. Finally we make a ranking to see the ones with the high
 <img src="pc.png">
 Everything was done with the weighted_score.py program that uses the importdata.py program that it is a simplified version of the dataframe.py program
 
-# How long does it take them?
+### How long does it take them?
 
 Measuring aproximately the time it takes UPC students to get to their faculty can be very tedious and can be done in different ways, but we will approach it as follows. We will take data from the “enquesta de mobilitat en dia feiner 2022 fet per ATM, Idescat i Institut Metròpoli, 2022”; where there is, among many others, data of the duration of the journey of students going from their home to the center where they study. The problem is that the data of origin and destination are only in county format, which means that we cannot have very good approximations. This is why we will assume that the students who go to a region to study (in the case of the Barcelonès, for example, there would be many different faculties, from the UPC and faculties from other universities) all take approximately the same time from their origin. 
 
@@ -53,7 +53,7 @@ And these are the results:
 [Results Travel time](travel_times.txt)
 
 
-# Which zones are better served in terms of public transportation?
+### Which zones are better served in terms of public transportation?
 We have used public data about the stations of the different catalan public transports: FGC, Rodalies Renfe and bus and Barcelona underground (TMB). With this, we have obtained the number of pulbic transport stations in each municipality, referenced and mapped in a dictonary by their zip codes.
 
 The next python code show how we extract de data:
