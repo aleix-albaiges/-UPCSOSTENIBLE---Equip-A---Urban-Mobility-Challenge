@@ -14,28 +14,25 @@ To do this we created a [dataset code](new_dataset.py) that extracts data of de 
 ### How do people exactly move from their home to their school?
 The following pie chart resume which transport use studients to go to the University. We can see that the most used transport to go to the University is the combination of públic transport and active mobility (on foot or bike). Also we can see that many people do the whole trip using only public transport or active mobility.  
 <img src="howpeoplego.png">
+[image here](howpeoplego.png)
 
 And the following pie chart resume which transport use studients to go and return to the university. Also we attached a bar plot to vizualize the number of people in each group. This was done in [global pie chartbarplot](grafic_barres_queso.py) The majority go and return to the University only using active mobility which inclue go on foot or by bike. The combination of públic transport, activity mobility and private vehicle that pollute is the less used by studients.  
 <img src="Globalpie.png">
+[image here](Globalpie.png)
 <img src="golbal_barplot.png">
+[image here](golbal_barplot.png)
 
 ### Which zones are better served in terms of public transportation?
 
-We aimed to analyze the effectiveness of public transportation coverage across different
-zones. To achieve this, we developed a code to calculate the proportion of individuals
-using public transportation to reach a UPC campus within each postal code, considering
-the total population of that postal code. Acknowledging the potential bias in favor of
-smaller populations, we designed an additional code to determine the actual count of
-individuals utilizing public transportation from each postal code. By combining these
-insights, we generated a comprehensive prediction pinpointing zones that benefit from
-robust public transportation services.
-To do so we selected every student from the dataframe that had as its transportation method one of
-the following: ‘Bus’, ‘FGC’, ‘Renfe’, ‘Tram’, ‘Underground’. Then we group these students by postal
-code and count the ones in each group and we calculate the percentatge that represent from the total.
-Then we have to set a weight to the number of people so that we can get a weighted score to each
-one of the postal codes. Finally we make a ranking to see the ones with the highest weighted score, everything was done with the [weighted_score.py](weighted_score.py) program that uses the [importdata.py](importdata.py) program that it is a simplified version of the [dataframe.py](dataframe.py) program. This graph represents the weight score of each postal code, as there are many postal codes and it may be difficult to see, we can get a list with a ranking of the postal codes based on the score
+We aimed to analyze the effectiveness of public transportation coverage across different zones. To achieve this, we developed a code to calculate the proportion of individuals using public transportation to reach a UPC campus within each postal code, considering the total population of that postal code. Acknowledging the potential bias in favor of smaller populations, we designed an additional code to determine the actual count of individuals utilizing public transportation from each postal code. By combining these insights, we generated a comprehensive prediction pinpointing zones that benefit from robust public transportation services.
+
+To do so we selected every student from the dataframe that had as its transportation method one of the following: ‘Bus’, ‘FGC’, ‘Renfe’, ‘Tram’, ‘Underground’. Then we group these students by postal
+code and count the ones in each group and we calculate the percentatge that represent from the total. Then we have to set a weight to the number of people so that we can get a weighted score to each one of the postal codes. Finally we make a ranking to see the ones with the highest weighted score, everything was done with the [weighted_score.py](weighted_score.py) program that uses the [importdata.py](importdata.py) program that it is a simplified version of the [dataframe.py](dataframe.py) program. This graph represents the weight score of each postal code, as there are many postal codes and it may be difficult to see, we can get a list with a ranking of the postal codes based on the score.
+
 <img src="Figure_1.png">
+[image here](Figure_1.png)
 <img src="pc.png">
+[image here](pc.png)
 
 
 ### How long does it take them?
