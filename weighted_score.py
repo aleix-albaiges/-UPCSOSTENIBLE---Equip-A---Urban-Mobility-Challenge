@@ -35,7 +35,7 @@ ranked_df = merged_df.sort_values(by='Weighted Score', ascending=False)
 
 # Display the ranked DataFrame
 print(ranked_df[['Postal Code', 'Total People', 'Percentage', 'Weighted Score']])
-"""
+
 # Plot the distribution of weighted scores
 plt.figure(figsize=(12, 6))
 sns.barplot(data=ranked_df, x='Postal Code', y='Weighted Score', palette='viridis')
@@ -43,4 +43,4 @@ plt.title('Ranking of Postal Codes Based on Public Transportation Service')
 plt.xlabel('Postal Code')
 plt.ylabel('Weighted Score')
 plt.show()
-"""
+
