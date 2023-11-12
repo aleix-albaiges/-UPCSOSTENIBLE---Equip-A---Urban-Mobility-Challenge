@@ -37,6 +37,7 @@ code and count the ones in each group and we calculate the percentatge that repr
 <img src="Figure_1.png">
 
 [image here](Figure_1.png)
+
 <img src="pc.png">
 
 [image here](pc.png)
