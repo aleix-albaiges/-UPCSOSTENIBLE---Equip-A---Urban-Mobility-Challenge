@@ -1,5 +1,5 @@
 # Urban Mobility challenge
-First of all we made a dataframe with everything we needed from the data we were provided
+First of all we made a dataframe to collect all data we were provided. The module dataframe.py is used to read the data come from the excel file Datathon_Results_MOBILITY_2022_original_Students.xlsx. We create a class in order to classify and save all the data.
 ## 1. Which factors determine whether students use public or private transportation systems to go to the university?
 For solve this problem we can consider that a good way to determine which factors determine whether students use public or private transportation systems to go to the university it will be to make a prediction model for the different factors of the student (the different questions of the survey) and look the explicative variables that have low p-value (this explains how important is this variable for the explain of our response variable).
 
