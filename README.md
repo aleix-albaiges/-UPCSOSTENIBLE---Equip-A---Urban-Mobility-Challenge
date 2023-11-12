@@ -23,7 +23,7 @@ one of the postal codes. Finally we make a ranking to see the ones with the high
 
 # How do people exactly move from their home to their school?
 The following graphic resume which main of transport use studients to go to the University. 
-<img src="howpeopeople.png">
+<img src="howpeoplego.png">
 
 
 
