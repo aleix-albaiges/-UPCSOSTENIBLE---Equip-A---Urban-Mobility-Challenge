@@ -1,0 +1,66 @@
+The aproximate travel time of Baix Llobregat to Baix Llobregat with Active Mobility is aprox 12.82 minuts.
+The aproximate travel time of Baix Llobregat to Baix Llobregat with Public Transport is aprox 31.94 minuts.
+The aproximate travel time of Baix Llobregat to Baix Llobregat with Private Transport is aprox 14.64 minuts.
+The aproximate travel time of Barcelonès to Baix Llobregat with Public Transport is aprox 24.0 minuts.
+The aproximate travel time of Barcelonès to Baix Llobregat with Private Transport is aprox 43.33 minuts.
+The aproximate travel time of Garraf to Baix Llobregat with Public Transport is aprox 30.0 minuts.
+The aproximate travel time of Maresme to Baix Llobregat with Public Transport is aprox 150.0 minuts.
+The aproximate travel time of Vallès Occidental to Baix Llobregat with Public Transport is aprox 90.0 minuts.
+The aproximate travel time of Vallès Occidental to Baix Llobregat with Private Transport is aprox 20.0 minuts.
+The aproximate travel time of Alt Penedès to Barcelonès with Public Transport is aprox 74.29 minuts.
+The aproximate travel time of Baix Llobregat to Barcelonès with Public Transport is aprox 49.15 minuts.
+The aproximate travel time of Baix Llobregat to Barcelonès with Private Transport is aprox 21.43 minuts.
+The aproximate travel time of Barcelonès to Barcelonès with Active Mobility is aprox 14.03 minuts.
+The aproximate travel time of Barcelonès to Barcelonès with Public Transport is aprox 30.9 minuts.
+The aproximate travel time of Barcelonès to Barcelonès with Private Transport is aprox 21.61 minuts.
+The aproximate travel time of Garraf to Barcelonès with Public Transport is aprox 85.91 minuts.
+The aproximate travel time of Garraf to Barcelonès with Private Transport is aprox 47.5 minuts.
+The aproximate travel time of Maresme to Barcelonès with Public Transport is aprox 62.5 minuts.
+The aproximate travel time of Maresme to Barcelonès with Private Transport is aprox 23.0 minuts.
+The aproximate travel time of Vallès Occidental to Barcelonès with Public Transport is aprox 60.5 minuts.
+The aproximate travel time of Vallès Occidental to Barcelonès with Private Transport is aprox 31.67 minuts.
+The aproximate travel time of Vallès Oriental to Barcelonès with Public Transport is aprox 63.67 minuts.
+The aproximate travel time of Vallès Oriental to Barcelonès with Private Transport is aprox 35.0 minuts.
+The aproximate travel time of Anoia to Barcelonès with Public Transport is aprox 86.67 minuts.
+The aproximate travel time of Anoia to Barcelonès with Private Transport is aprox 90.0 minuts.
+The aproximate travel time of Berguedà to Barcelonès with Private Transport is aprox 90.0 minuts.
+The aproximate travel time of Bages to Barcelonès with Public Transport is aprox 100.0 minuts.
+The aproximate travel time of Bages to Barcelonès with Private Transport is aprox 60.0 minuts.
+The aproximate travel time of Moianès to Barcelonès with Public Transport is aprox 70.0 minuts.
+The aproximate travel time of Osona to Barcelonès with Public Transport is aprox 102.0 minuts.
+The aproximate travel time of Alt Penedès to Garraf with Private Transport is aprox 15.0 minuts.
+The aproximate travel time of Baix Llobregat to Garraf with Public Transport is aprox 50.0 minuts.
+The aproximate travel time of Barcelonès to Garraf with Public Transport is aprox 60.0 minuts.
+The aproximate travel time of Garraf to Garraf with Active Mobility is aprox 12.46 minuts.
+The aproximate travel time of Garraf to Garraf with Public Transport is aprox 40.0 minuts.
+The aproximate travel time of Garraf to Garraf with Private Transport is aprox 9.5 minuts.
+The aproximate travel time of Alt Penedès to Vallès Occidental with Public Transport is aprox 60.0 minuts.
+The aproximate travel time of Baix Llobregat to Vallès Occidental with Public Transport is aprox 55.0 minuts.
+The aproximate travel time of Baix Llobregat to Vallès Occidental with Private Transport is aprox 25.0 minuts.
+The aproximate travel time of Barcelonès to Vallès Occidental with Public Transport is aprox 59.93 minuts.
+The aproximate travel time of Barcelonès to Vallès Occidental with Private Transport is aprox 28.33 minuts.
+The aproximate travel time of Maresme to Vallès Occidental with Public Transport is aprox 45.0 minuts.
+The aproximate travel time of Maresme to Vallès Occidental with Private Transport is aprox 40.0 minuts.
+The aproximate travel time of Vallès Occidental to Vallès Occidental with Active Mobility is aprox 12.24 minuts.
+The aproximate travel time of Vallès Occidental to Vallès Occidental with Public Transport is aprox 33.48 minuts.
+The aproximate travel time of Vallès Occidental to Vallès Occidental with Private Transport is aprox 13.52 minuts.
+The aproximate travel time of Vallès Oriental to Vallès Occidental with Public Transport is aprox 53.8 minuts.
+The aproximate travel time of Vallès Oriental to Vallès Occidental with Private Transport is aprox 36.67 minuts.
+The aproximate travel time of Anoia to Vallès Occidental with Public Transport is aprox 93.33 minuts.
+The aproximate travel time of Anoia to Vallès Occidental with Private Transport is aprox 35.0 minuts.
+The aproximate travel time of Bages to Vallès Occidental with Public Transport is aprox 75.0 minuts.
+The aproximate travel time of Moianès to Vallès Occidental with Public Transport is aprox 45.0 minuts.
+The aproximate travel time of Moianès to Vallès Occidental with Private Transport is aprox 40.0 minuts.
+The aproximate travel time of Osona to Vallès Occidental with Public Transport is aprox 105.0 minuts.
+The aproximate travel time of Osona to Vallès Occidental with Private Transport is aprox 60.0 minuts.
+The aproximate travel time of Baix Llobregat to Bages with Private Transport is aprox 60.0 minuts.
+The aproximate travel time of Vallès Occidental to Bages with Public Transport is aprox 180.0 minuts.
+The aproximate travel time of Anoia to Bages with Public Transport is aprox 60.0 minuts.
+The aproximate travel time of Anoia to Bages with Private Transport is aprox 37.5 minuts.
+The aproximate travel time of Berguedà to Bages with Public Transport is aprox 90.0 minuts.
+The aproximate travel time of Berguedà to Bages with Private Transport is aprox 14.0 minuts.
+The aproximate travel time of Bages to Bages with Active Mobility is aprox 14.17 minuts.
+The aproximate travel time of Bages to Bages with Public Transport is aprox 26.71 minuts.
+The aproximate travel time of Bages to Bages with Private Transport is aprox 15.5 minuts.
+The aproximate travel time of Moianès to Bages with Public Transport is aprox 28.75 minuts.
+The aproximate travel time of Moianès to Bages with Private Transport is aprox 36.67 minuts.
