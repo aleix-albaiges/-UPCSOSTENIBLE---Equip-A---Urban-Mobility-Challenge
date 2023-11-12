@@ -45,6 +45,10 @@ The next python code show how we extract de data:
 
 [Python code](Travel_time.py)
 
+And these are the results:
+
+[Results Travel time](travel_times.txt)
+
 
 
 
