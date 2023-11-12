@@ -1,5 +1,5 @@
 # Urban Mobility challenge
-Project made by: Adrà Capdevila Zurita, Andreu Fernandez Cubí, Aleix Albaigès Torres i Aniol Garriga Torra.
+Project made by: Adrià Capdevila Zurita, Andreu Fernandez Cubí, Aleix Albaiges Torres i Aniol Garriga Torra.
 
 First of all we made a [dataframe](dataframe.py) to collect all data we were provided. The module [dataframe](dataframe.py) is used to read the data come from the [excel file](Datathon_Results_MOBILITY_2022_original_Students.xlsx). We create a class in order to classify and save all the data.
 ## 1. Which factors determine whether students use public or private transportation systems to go to the university?
@@ -33,10 +33,10 @@ To do so we selected every student from the dataframe that had as its transporta
 the following: ‘Bus’, ‘FGC’, ‘Renfe’, ‘Tram’, ‘Underground’. Then we group these students by postal
 code and count the ones in each group and we calculate the percentatge that represent from the total.
 Then we have to set a weight to the number of people so that we can get a weighted score to each
-one of the postal codes. Finally we make a ranking to see the ones with the highest weighted score:
+one of the postal codes. Finally we make a ranking to see the ones with the highest weighted score, everything was done with the [weighted_score.py](weighted_score.py) program that uses the [importdata.py](importdata.py) program that it is a simplified version of the [dataframe.py](dataframe.py) program. This graph represents the weight score of each postal code, as there are many postal codes and it may be difficult to see, we can get a list with a ranking of the postal codes based on the score
 <img src="Figure_1.png">
 <img src="pc.png">
-Everything was done with the weighted_score.py program that uses the importdata.py program that it is a simplified version of the dataframe.py program
+
 
 ### How long does it take them?
 
