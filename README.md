@@ -2,6 +2,7 @@
 First of all we made a dataframe to collect all data we were provided. The module dataframe.py is used to read the data come from the excel file Datathon_Results_MOBILITY_2022_original_Students.xlsx. We create a class in order to classify and save all the data.
 ## 1. Which factors determine whether students use public or private transportation systems to go to the university?
 For solve this problem we can consider that a good way to determine which factors determine whether students use public or private transportation systems to go to the university it will be to make a prediction model for the different factors of the student (the different questions of the survey) and look the explicative variables that have low p-value (this explains how important is this variable for the explain of our response variable).
+To do this we created a new dataset (new_dataset.py) that we implemented later with R to create the linear model
 
 [Explanation with R](which-factors-determine-whether-students-use-public-or-private-transportation.pdf)
 
@@ -33,7 +34,7 @@ Then we have to set a weight to the number of people so that we can get a weight
 one of the postal codes. Finally we make a ranking to see the ones with the highest weighted score:
 <img src="Figure_1.png">
 <img src="pc.png">
-
+Everything was done with the weighted_score.py program that uses the importdata.py program that it is a simplified version of the dataframe.py program
 
 # How long does it take them?
 
