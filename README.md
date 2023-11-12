@@ -25,6 +25,8 @@ And the following pie chart resume which transport use studients to go and retur
 
 [image here](golbal_barplot.png)
 
+If we observe carefully the graphic, we can see that almost a half of the studient use only active mobility and públic transport. Then the combination of públic transport and go on foot also covers a quarter of the graphic, which suggest us sustinablility  
+
 ### Which zones are better served in terms of public transportation?
 
 We aimed to analyze the effectiveness of public transportation coverage across different zones. To achieve this, we developed a code to calculate the proportion of individuals using public transportation to reach a UPC campus within each postal code, considering the total population of that postal code. Acknowledging the potential bias in favor of smaller populations, we designed an additional code to determine the actual count of individuals utilizing public transportation from each postal code. By combining these insights, we generated a comprehensive prediction pinpointing zones that benefit from robust public transportation services.
