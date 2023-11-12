@@ -19,6 +19,11 @@ code and count the ones in each group and we calculate the percentatge that repr
 Then we have to set a weight to the number of people so that we can get a weighted score to each
 one of the postal codes. Finally we make a ranking to see the ones with the highest weighted score:
 
+##  2. Create a data visualization solution that summarizes the people flow generated daily by UPC students, by transportation category. A user of your solution should be able to answer some of the following questions:
+
+# How do people exactly move from their home to their school?
+The following graphic resume how peeople 
+
 
 
 
