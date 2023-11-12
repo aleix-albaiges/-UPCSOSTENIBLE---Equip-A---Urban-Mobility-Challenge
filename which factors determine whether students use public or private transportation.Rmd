@@ -1,0 +1,78 @@
+---
+title: "Model de predicció"
+author: "Aniol Garriga Torra"
+date: "2023-11-12"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+To solve this problem we can consider that a good way to determine which factors determine whether students use public or private transportation systems to go to the university it will be to make a prediction model for the different factors of the student (the different questions of the survey) and look the explicative variables that have low p-value (this explains how important is this variable for the explain of our response variable).
+
+```{r}
+library(randomForest)
+library(car)
+df = new_dataset
+```
+
+
+
+```{r}
+model1 <- glm(public_transport ~ sex + faculty + days + fastest + cheapest + most_comfortable + only_option + environment + healthiest + no_private_vehicle, data = df, family = binomial)
+summary(model1)
+```
+In our first model that we take all the variables, we can see that the lowest important factor is the people their transport is the fastest option. We eliminate the variable.
+
+
+```{r}
+model2 <- glm(public_transport ~ sex + faculty + days + cheapest + most_comfortable + only_option + environment + healthiest + no_private_vehicle, data = df, family = binomial)
+summary(model2)
+```
+In this second model we can see that the lowest important variable is the people who only cares the environment. Counterintuitive no?
+
+```{r}
+model3 <- glm(public_transport ~ sex + faculty + days + cheapest + most_comfortable + only_option + healthiest + no_private_vehicle, data = df, family = binomial)
+summary(model3)
+```
+We eliminate the variable that explains the people who only cares if is the most confortable way to travel.
+
+```{r}
+model4 <- glm(public_transport ~ sex + faculty + days + cheapest + only_option + healthiest + no_private_vehicle, data = df, family = binomial)
+summary(model4)
+```
+The sex of the person doesn't matter...
+
+```{r}
+model5 <- glm(public_transport ~ faculty + days + cheapest + only_option + healthiest + no_private_vehicle, data = df, family = binomial)
+summary(model5)
+```
+
+The faculty that the student studies doesn't really matter.
+
+
+```{r}
+model6 <- glm(public_transport ~ days + cheapest + only_option + healthiest + no_private_vehicle, data = df, family = binomial)
+summary(model6)
+```
+And finally we can say that the days that students goes to university doesn't matter.
+
+
+```{r}
+model7 <- glm(public_transport ~ cheapest + only_option + healthiest + no_private_vehicle, data = df, family = binomial)
+summary(model7)
+```
+Finally we can see that the group of this factors explains pretty good our variable response. The conclusion it will be that:
+
+By the methodology of the statistic binomial model and with the data of the UPC student's survey, we can say that the most important factors for determine whether students use public or private transportation systems to go to the university, are:
+
+  -If the student take the cheapest option
+  -If the student take the only option he has
+  -If the student take the healthiest option
+  -If the student doesn't have private vehicle
+
+
+
+
+
