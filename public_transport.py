@@ -13,14 +13,13 @@ def main():
     stops_dict = stops.to_dict()
 
     keys = list(stops_dict.keys())
-    values = [len(lst) for lst in stops_dict.values()]
+    values = [sum(len(lst) for lst in vals.values()) for  vals in stops_dict.values()]
 
     plt.bar(keys, values)
-    plt.xlabel('Zip code')
+    plt.xticks([])
     plt.ylabel('Number of stations')
     plt.title('Number of stations for each zone')
-    plt.show()
+    plt.savefig("better_served_zones.png")
 
-
-
-main()
+if __name__ == "__main__":
+    main()
