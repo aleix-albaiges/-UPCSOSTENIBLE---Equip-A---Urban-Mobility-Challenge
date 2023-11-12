@@ -32,7 +32,7 @@ code and count the ones in each group and we calculate the percentatge that repr
 Then we have to set a weight to the number of people so that we can get a weighted score to each
 one of the postal codes. Finally we make a ranking to see the ones with the highest weighted score:
 <img src="Figure_1.png">
-<img src="">
+<img src="pc.png">
 
 
 
