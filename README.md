@@ -35,4 +35,16 @@ one of the postal codes. Finally we make a ranking to see the ones with the high
 <img src="pc.png">
 
 
+# How long does it take them?
+
+Measuring aproximately the time it takes UPC students to get to their faculty can be very tedious and can be done in different ways, but we will approach it as follows. We will take data from the “enquesta de mobilitat en dia feiner 2022 fet per ATM, Idescat i Institut Metròpoli, 2022”; where there is, among many others, data of the duration of the journey of students going from their home to the center where they study. The problem is that the data of origin and destination are only in county format, which means that we cannot have very good approximations. This is why we will assume that the students who go to a region to study (in the case of the Barcelonès, for example, there would be many different faculties, from the UPC and faculties from other universities) all take approximately the same time from their origin. 
+
+Therefore, we will take the counties of the nine faculties of the UPC as the destination county, and we will calculate the estimated time for students who live in the different counties of the province of Barcelona and who go to one of these counties of the faculties. Also, the data AMB give us contains the principal transport way the student uses, so we can determine the average time of each student who goes from a region of the province of Barcelona to the region of the faculty in which he studies with the different methods of transport (we consider only three, public transport, private transport and active mobility).
+
+The next python code show how we extract de data:
+
+[Python code]()
+
+
+
 
