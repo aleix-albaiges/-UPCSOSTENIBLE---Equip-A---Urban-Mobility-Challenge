@@ -22,7 +22,8 @@ one of the postal codes. Finally we make a ranking to see the ones with the high
 ##  2. Create a data visualization solution that summarizes the people flow generated daily by UPC students, by transportation category. A user of your solution should be able to answer some of the following questions:
 
 # How do people exactly move from their home to their school?
-The following graphic resume how peeople 
+The following graphic resume which main of transport use studients to go to the University. 
+<img src="howpeopeople.png">
 
 
 
