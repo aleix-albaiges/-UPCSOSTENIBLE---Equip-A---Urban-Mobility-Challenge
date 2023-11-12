@@ -25,9 +25,9 @@ one of the postal codes. Finally we make a ranking to see the ones with the high
 The following pie chart resume which transport use studients to go to the University. 
 <img src="howpeoplego.png">
 
-And the following pie chart resume which transport use studients to go and return to the university. Also we attached a bar plot to vizualize the number of people in each group.
-<img src="globalpie.png">
-<img src="golbalbarplot.png">
+And the following pie chart resume which transport use studients to go and return to the university. Also we attached a bar plot to vizualize the number of people in each group. This was done is grafic_barres_queso.py
+<img src="Globalpie.png">
+<img src="golbal_barplot.png">
 
 
 
