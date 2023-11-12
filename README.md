@@ -42,6 +42,21 @@ code and count the ones in each group and we calculate the percentatge that repr
 
 [image here](pc.png)
 
+To compare it with the service the zones actually have, we have obtained data from the main means of públic transport in Catalunya: Ferrocarrils (FGC), Rodalies Renfe, and metropolitan bus and metro of Barcelona (TMB). Using this, we have achieved the number of públic transport in each municipality, referenced and mapped in a dictonary by their zip codes. The code used to do this is ....., and we can see the results in the following graphic:
+[image here](better_served_zones.png)
+
+As we see, some post codes stand out, which correspond to the city of Barcelona. The municipalities close to them represent towns from the metropolitana rea, whose also have a quite good públic transport service. However, we see that many small municipalities have very little stops.
+
+If we compare these graphic with the previous one, we see that there is no correlation between the quality of the públic transport service and the number of students that use them
+
+The next python code show how we extract de data:
+
+[Python code](estacions.py)
+
+And these are the results:
+
+[Results Travel time](postcode_stops.txt)
+
 
 ### How long does it take them?
 
@@ -61,13 +76,6 @@ And these are the results:
 ### Which zones are better served in terms of public transportation?
 We have used public data about the stations of the different catalan public transports: FGC, Rodalies Renfe and bus and Barcelona underground (TMB). With this, we have obtained the number of pulbic transport stations in each municipality, referenced and mapped in a dictonary by their zip codes.
 
-The next python code show how we extract de data:
-
-[Python code](estacions.py)
-
-And these are the results:
-
-[Results Travel time](postcode_stops.txt)
 
 
 
