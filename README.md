@@ -5,6 +5,19 @@ For solve this problem we can consider that a good way to determine which factor
 
 [Explanation with R](which-factors-determine-whether-students-use-public-or-private-transportation.pdf)
 
+
+##  2. Create a data visualization solution that summarizes the people flow generated daily by UPC students, by transportation category. A user of your solution should be able to answer some of the following questions:
+
+# How do people exactly move from their home to their school?
+The following pie chart resume which transport use studients to go to the University. 
+<img src="howpeoplego.png">
+
+And the following pie chart resume which transport use studients to go and return to the university. Also we attached a bar plot to vizualize the number of people in each group. This was done is grafic_barres_queso.py
+<img src="Globalpie.png">
+<img src="golbal_barplot.png">
+
+# Which zones are better served in terms of public transportation?
+
 We aimed to analyze the effectiveness of public transportation coverage across different
 zones. To achieve this, we developed a code to calculate the proportion of individuals
 using public transportation to reach a UPC campus within each postal code, considering
@@ -18,17 +31,8 @@ the following: ‘Bus’, ‘FGC’, ‘Renfe’, ‘Tram’, ‘Underground’.
 code and count the ones in each group and we calculate the percentatge that represent from the total.
 Then we have to set a weight to the number of people so that we can get a weighted score to each
 one of the postal codes. Finally we make a ranking to see the ones with the highest weighted score:
-
-##  2. Create a data visualization solution that summarizes the people flow generated daily by UPC students, by transportation category. A user of your solution should be able to answer some of the following questions:
-
-# How do people exactly move from their home to their school?
-The following pie chart resume which transport use studients to go to the University. 
-<img src="howpeoplego.png">
-
-And the following pie chart resume which transport use studients to go and return to the university. Also we attached a bar plot to vizualize the number of people in each group. This was done is grafic_barres_queso.py
-<img src="Globalpie.png">
-<img src="golbal_barplot.png">
-
+<img src="Figure_1">
+<img src="">
 
 
 
